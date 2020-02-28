@@ -1,6 +1,5 @@
 import React from "react";
 import {Route} from "react-router-dom";
-import Header from "./components/Header.js";
 import WelcomePage from "./components/WelcomePage";
 import NavBar from "./components/Navbar";
 import CharacterList from "./components/CharacterList";
@@ -17,7 +16,7 @@ export default function App() {
       <Route exact path="/characters">
          <CharacterList/>
       </Route>
-      <Route exact path="/locations">
+      <Route exact path="/locations/">
          <LocationList/>
       </Route>
     </div>

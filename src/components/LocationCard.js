@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Card, CardText, CardBody,
+  Card, CardBody,
   CardTitle, CardSubtitle
 } from 'reactstrap';
 export default function LocationCard(props) {

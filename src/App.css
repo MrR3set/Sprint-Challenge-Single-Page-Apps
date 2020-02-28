@@ -4,6 +4,10 @@
   text-align: center;
   background-color: #262626;
 }
+.welcome-page{
+  height: 100vh;
+  color:white;
+}
 
 .card-wrapper{
     padding: 1%;
