@@ -13,10 +13,10 @@ export default function App() {
       <Route exact path="/">
         <WelcomePage/>
       </Route>
-      <Route exact path="/characters">
+      <Route exact path="/characters/:id">
          <CharacterList/>
       </Route>
-      <Route exact path="/locations/">
+      <Route path="/locations/:id">
          <LocationList/>
       </Route>
     </div>

@@ -47,7 +47,7 @@
     width: 500px;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 300px 450px;
+    grid-template-rows: minmax(300px, auto) 450px;
     grid-template-areas: "image" "text";
     border-radius: 18px;
     /* background: rgb(250, 248, 248); */
@@ -65,10 +65,10 @@
     grid-area: image;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-size: contain;
+    background-size: cover;
     margin: 0 auto;
   }
-  
+
   .card-body{
     grid-area: text;
     border-bottom-left-radius: 15px;
@@ -116,3 +116,12 @@
     color: rgb(190, 10, 10)
   }
   
+  .pagination-wrapper{
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;  
+    align-content: center;  
+  }
+  .pagination a{
+    color: black;
+  }

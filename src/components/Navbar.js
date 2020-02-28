@@ -1,13 +1,15 @@
 import React from "react";
-import { NavLink } from 'react-router-dom';
+import { Switch, Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
     <div className="nav-wrapper">      
       <div className="navbar">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="characters">Characters</NavLink>
-          <NavLink to="locations">Locations</NavLink>
+          
+            <Link to="/" >Home</Link>
+            <Link to="characters/1" >Characters</Link>
+           <Link to="locations/1" >Locations</Link>
+          
       </div>
     </div>
   );
