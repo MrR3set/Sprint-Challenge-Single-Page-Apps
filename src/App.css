@@ -47,7 +47,7 @@
     width: 500px;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: minmax(300px, auto) 450px;
+    grid-template-rows: minmax(300px, auto) minmax(450px, auto);
     grid-template-areas: "image" "text";
     border-radius: 18px;
     /* background: rgb(250, 248, 248); */
